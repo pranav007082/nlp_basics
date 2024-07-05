@@ -23,3 +23,15 @@ iii.Using Stemming and Lemmatization to convert words into their respective base
 6.Evaluation: Evaluating current model and re iterate to preprocessing step so that we can make our model better.
 
 7.final step: deployment and monitor and update.
+
+# Text Representation
+
+1.We cannot use label encoding and one hot enconding in feature engineering/text representation due to following issues:
+
+i.dissimilar representations of similar words
+
+ii.too much memory consumption(in case of one hot encoding)
+
+iii.out of vocabulary issue
+
+So it's better to use bag of words approach.
